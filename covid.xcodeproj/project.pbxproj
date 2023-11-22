@@ -33,6 +33,7 @@
 		84F537A72B0DEA7900CD971D /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84F537952B0DEA7800CD971D /* Poppins-Light.ttf */; };
 		84F537A82B0DEA7900CD971D /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84F537962B0DEA7800CD971D /* Poppins-Medium.ttf */; };
 		84FBA4002B0E57870046878E /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FBA3FF2B0E57870046878E /* Categories.swift */; };
+		84FBA4022B0E5E400046878E /* DoctorList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FBA4012B0E5E400046878E /* DoctorList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +65,7 @@
 		84F537962B0DEA7800CD971D /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
 		84F537AB2B0DEE2100CD971D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		84FBA3FF2B0E57870046878E /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
+		84FBA4012B0E5E400046878E /* DoctorList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 		84F537752B0DE07700CD971D /* covid */ = {
 			isa = PBXGroup;
 			children = (
+				84FBA4012B0E5E400046878E /* DoctorList.swift */,
 				84FBA3FF2B0E57870046878E /* Categories.swift */,
 				84B193222B0E5640008E5653 /* Search.swift */,
 				84B193202B0E4F3E008E5653 /* MainCard.swift */,
@@ -235,6 +238,7 @@
 				84F537792B0DE07700CD971D /* ContentView.swift in Sources */,
 				84B193232B0E5640008E5653 /* Search.swift in Sources */,
 				84B1931F2B0E4E61008E5653 /* Header.swift in Sources */,
+				84FBA4022B0E5E400046878E /* DoctorList.swift in Sources */,
 				84F537772B0DE07700CD971D /* covidApp.swift in Sources */,
 				84FBA4002B0E57870046878E /* Categories.swift in Sources */,
 			);
