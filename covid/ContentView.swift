@@ -29,6 +29,9 @@ struct ContentView: View {
                 .frame(height: 20)
             Search()
             Spacer()
+                .frame(height: 24)
+            Categories()
+            Spacer()
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .padding(.vertical, 24)
